@@ -6,4 +6,8 @@ app.get('/', (req, res) => {
     res.render('main.ejs');
 })
 
+app.get('/bookmark', (req, res) => {
+    res.render('bookmark.ejs');
+})
+
 app.listen(3000);
