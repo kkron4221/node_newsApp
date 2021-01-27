@@ -1,10 +1,10 @@
 {
   "name": "node_newsapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "This app is an app that acquires and displays website news and SNS timelines.\r The following installation is required for this app.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,8 @@
   "dependencies": {
     "ejs": "^3.1.5",
     "express": "^4.17.1",
+    "pg": "^8.5.1",
     "twitter": "^1.7.1"
-  }
+  },
+  "devDependencies": {}
 }
